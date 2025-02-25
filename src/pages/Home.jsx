@@ -5,7 +5,6 @@ import homeStyle from './Home.module.css';
 const Home = () => {
   return (
     <main className={homeStyle.main}>
-      <span className={homeStyle.guest}>Select a cipher technique...</span>
       <div className={homeStyle.div}>
         <Link to="/caesar" className={homeStyle.link_container}>
           <span className={homeStyle.cipher}>Caesar Cipher</span>

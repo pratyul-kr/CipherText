@@ -1,0 +1,9 @@
+.music {
+  font-size: 2.75rem;
+  border: none;
+  color: rgb(21, 21, 21);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}

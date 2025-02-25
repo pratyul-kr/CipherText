@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Music from './components/Music';
 import Home from './pages/Home';
 import Cipher1 from './pages/Cipher1';
 import Cipher2 from './pages/Cipher2';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/playfair" element={<Cipher2 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Music />
       <Footer />
     </>
   );

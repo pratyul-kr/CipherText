@@ -7,21 +7,22 @@
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  background-color: #18191a;
+  background-color: rgb(240, 240, 240);
   padding-block: 0.875rem;
   padding-inline: 0.875rem;
   gap: 0.5rem
 }
 
 .span {
-  color: rgb(255, 255, 255);
+  color: rgb(21, 21, 21);
   background-color: transparent;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .link {
   text-decoration: none;
-  color: #1877f2;
+  color: rgb(0, 100, 224);
   background-color: transparent;
   font-size: 1rem;
 }
