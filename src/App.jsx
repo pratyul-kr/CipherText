@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Cipher1 from './pages/Cipher1';
+import Cipher2 from './pages/Cipher2';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/caesar" element={<Cipher1 />} />
+        <Route path="/playfair" element={<Cipher2 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
