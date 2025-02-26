@@ -1,9 +1,21 @@
-.music {
-  font-size: 2.75rem;
-  border: none;
-  color: rgb(21, 21, 21);
+.fab {
+  background-color: rgb(21, 21, 21);
   border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 0.875rem;
+  right: 0.875rem;
+  z-index: 100;
+  height: 3rem;
+  width: 3rem;
+}
+
+.icon {
+  color: rgb(21, 21, 21);
+  background-color: rgb(255, 255, 255);
+  font-size: 3rem;
+  border-radius: 50%;
 }

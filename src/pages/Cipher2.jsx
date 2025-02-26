@@ -99,7 +99,7 @@ const Cipher2 = () => {
 
   return (
     <main className={cipher2Style.main}>
-      <h2 className={cipher2Style.title}>Playfair Cipher</h2>
+      <span className={cipher2Style.title}>Playfair Cipher</span>
       <input
         type="text"
         placeholder="Enter text"
@@ -121,7 +121,7 @@ const Cipher2 = () => {
           Decrypt
         </button>
       </div>
-      <h3 className={cipher2Style.result}>Result: {result}</h3>
+      <span className={cipher2Style.result}>Result: {result}</span>
     </main>
   );
 };

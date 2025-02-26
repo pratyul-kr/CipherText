@@ -29,7 +29,7 @@ const Cipher1 = () => {
 
   return (
     <main className={cipher1Style.main}>
-      <h2 className={cipher1Style.title}>Caesar Cipher</h2>
+      <span className={cipher1Style.title}>Caesar Cipher</span>
       <input
         type="text"
         placeholder="Enter text"
@@ -52,7 +52,7 @@ const Cipher1 = () => {
           Decrypt
         </button>
       </div>
-      <h3 className={cipher1Style.result}>Result: {result}</h3>
+      <span className={cipher1Style.result}>Result: {result}</span>
     </main>
   );
 };

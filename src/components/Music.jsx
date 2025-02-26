@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import musicStyle from './Music.module.css';
 
 const Music = () => {
@@ -29,7 +28,8 @@ const Music = () => {
   };
 
   return (
-    <button onClick={toggleAudio} className={`fa-solid ${isPlaying ? 'fa-circle-pause' : 'fa-circle-play'} ${musicStyle.music}`}>
+    <button className={musicStyle.fab} onClick={toggleAudio}>
+      <i className={`fa-solid ${isPlaying ? 'fa-pause-circle' : 'fa-play-circle'} ${musicStyle.icon}`}></i>
     </button>
   );
 };

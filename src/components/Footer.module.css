@@ -1,10 +1,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  font-family: 'Lato', serif;
   justify-content: center;
   align-items: center;
-  font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
   background-color: rgb(240, 240, 240);
@@ -17,7 +15,7 @@
   color: rgb(21, 21, 21);
   background-color: transparent;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .link {
@@ -25,4 +23,8 @@
   color: rgb(0, 100, 224);
   background-color: transparent;
   font-size: 1rem;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
