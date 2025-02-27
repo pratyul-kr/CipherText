@@ -2,6 +2,19 @@ import React, { useState, useRef, useEffect } from 'react';
 import musicStyle from './Music.module.css';
 
 const Music = () => {
+  /*useEffect(() => {
+    const handleScroll = () => {
+      const nav = document.querySelector(`.${navbarStyle.nav}`);
+      if (window.scrollY > 50) {
+        nav.classList.add(navbarStyle.scrolled);
+      } else {
+        nav.classList.remove(navbarStyle.scrolled);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);*/
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
 

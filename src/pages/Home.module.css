@@ -21,6 +21,29 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  border: 1.5px solid rgb(21, 21, 21);
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  width: 100%;
+  font-weight: 500;
+  color: rgb(21, 21, 21);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  trasition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link_container:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.link_container_disable {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   border: 1.5px solid rgb(240, 240, 240);
   padding-block: 0.5rem;
   padding-inline: 1rem;
@@ -28,16 +51,16 @@
   border-radius: 2rem;
   text-decoration: none;
   width: 100%;
-  color: rgb(21, 21, 21);
   font-weight: 500;
+  color: rgb(240, 240, 240);
 }
 
 .icon {
-  font-size: 0.875rem;
+  font-size: 1.125rem;
   background: transparent;
 }
 
 .cipher {
-  font-size: 1rem;
+  font-size: 1.125rem;
   background: transparent;
 }

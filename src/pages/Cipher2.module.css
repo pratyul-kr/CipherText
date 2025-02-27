@@ -18,10 +18,12 @@
   padding-block: 0.5rem;
   padding-inline: 1rem;
   width: 100%;
-  border: 1.5px solid rgb(240, 240, 240);
+  border: 1.5px solid rgb(21, 21, 21);
   border-radius: 2rem;
-  font-size: 0.875rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Ubuntu Sans", serif;
 }
 
 .button_group {
@@ -38,25 +40,41 @@
   border: none;
   border-radius: 2rem;
   color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.875rem;
   width: 100%;
+  font-family: "Ubuntu Sans", serif;
 }
 
 .encrypt {
   background-color: rgb(0, 153, 51);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  trasition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.encrypt:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .decrypt {
   background-color: rgb(204, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  trasition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.decrypt:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .result {
   color: rgb(21, 21, 21);
-  border: 1.5px solid rgb(240, 240, 240);
+  border: 1.5px solid rgb(21, 21, 21);
   padding-block: 0.5rem;
   padding-inline: 1rem;
   border-radius: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
