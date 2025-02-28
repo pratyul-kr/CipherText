@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className={navbarStyle.nav}>
       <div className={navbarStyle.upper_nav}>
-        <i className={`fa-solid fa-angle-left ${navbarStyle.icon}`}></i>
+        <i className={`fa-solid fa-bars ${navbarStyle.icon}`}></i>
         <Link to="/" className={navbarStyle.logo}>
           CipherText
         </Link>

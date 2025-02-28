@@ -6,46 +6,38 @@ const Home = () => {
   return (
     <main className={homeStyle.main}>
       <div className={homeStyle.div}>
-        <Link to="/caesar" className={homeStyle.link_container}>
-          <span className={homeStyle.cipher}>Caesar Cipher</span>
+        <Link to="/hill" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Hill Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
         </Link>
         <Link to="/playfair" className={homeStyle.link_container}>
           <span className={homeStyle.cipher}>Playfair Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
         </Link>
-        <Link to="/hill" className={homeStyle.link_container}>
-          <span className={homeStyle.cipher}>Hill Cipher</span>
+        <Link to="/caesar" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Caesar Cipher</span>
+          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
+        </Link>    
+        <Link to="/rail-fence" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Rail Fence Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
         </Link>
-        <ink to="/monoalphabetic" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Monoalphabetic Cipher</span>
+        <Link to="/columnar" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Columnar Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/homophonic" className={homeStyle.link_container_disable}>
+        </Link>
+        <Link to="/vernam" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Vernam Cipher</span>
+          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
+        </Link>
+        <Link to="/homophonic" className={homeStyle.link_container}>
           <span className={homeStyle.cipher}>Homophonic Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Cipher</span>
+        </Link>
+        <Link to="/monoalphabetic" className={homeStyle.link_container}>
+          <span className={homeStyle.cipher}>Monoalphabetic Cipher</span>
           <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Cipher</span>
-          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Cipher</span>
-          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Cipher</span>
-          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
-        <ink to="/" className={homeStyle.link_container_disable}>
-          <span className={homeStyle.cipher}>Cipher</span>
-          <i className={`fa-solid fa-angle-right ${homeStyle.icon}`}></i>
-        </ink>
+        </Link>
       </div>
     </main>
   );

@@ -122,6 +122,17 @@ const Cipher2 = () => {
         </button>
       </div>
       <span className={cipher2Style.result}>Result: {result}</span>
+
+      <div className={cipher2Style.notes}>
+        <span className={cipher2Style.nitle}>Playfair Cipher Notes</span>
+        <div className={cipher2Style.img_group}>
+          <a href="upi://pay?pa=pratyulplays@okisbi&pn=Pratyul%20Kumar%20Rath&am=1&cu=INR" className={cipher2Style.img}>Buy premium to view notes.</a>
+          <a href="upi://pay?pa=pratyulplays@okisbi&pn=Pratyul%20Kumar%20Rath&am=1&cu=INR" className={cipher2Style.img}>Buy premium to view notes.</a>
+          <a href="upi://pay?pa=pratyulplays@okisbi&pn=Pratyul%20Kumar%20Rath&am=1&cu=INR" className={cipher2Style.img}>Buy premium to view notes.</a>
+          <a href="upi://pay?pa=pratyulplays@okisbi&pn=Pratyul%20Kumar%20Rath&am=1&cu=INR" className={cipher2Style.img}>Buy premium to view notes.</a>
+          <a href="upi://pay?pa=pratyulplays@okisbi&pn=Pratyul%20Kumar%20Rath&am=1&cu=INR" className={cipher2Style.img}>Buy premium to view notes.</a>
+        </div>
+      </div>
     </main>
   );
 };
